@@ -1,0 +1,28 @@
+#w3-page-tree-widget {
+	margin-left:1em;
+}
+
+.w3ptw-title-icon {
+	margin-right: 1pt;
+}
+
+ol#w3-page-tree-widget a {
+	color: #0275d8;
+}
+
+ol#w3-page-tree-widget li {
+	font-size:16px;
+	list-style: square;
+}
+
+ol#w3-page-tree-widget li:not(:last-child) {
+	margin-bottom:0.5rem;
+}
+
+ol#w3-page-tree-widget li.active {
+	background: #eee;
+}
+
+ol#w3-page-tree-widget li ol {
+	margin-left:0;
+}
